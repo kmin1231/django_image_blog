@@ -1,0 +1,16 @@
+{
+    "version":"0.2.0",
+    "configuration": [
+        {
+            "name":"Python: Django",
+            "type":"python",
+            "request":"launch",
+            "program":"${workspaceFloder}\\manage.py",
+            "args":[
+                "runserver"
+            ],
+            "django":true,
+            "justMyCode":true
+        }
+    ]
+}
