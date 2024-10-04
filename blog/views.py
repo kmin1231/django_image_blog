@@ -38,3 +38,10 @@ def post_edit(request, pk):
     else:
         form = PostForm(instance=post)
     return render(request, 'blog/post_edit.html', {'form': form})
+
+def post_list(request):
+    return render(request, 'blog/post_list.html', {})
+
+
+def poem(request):
+    return render(request, 'blog/poem.html', {})
